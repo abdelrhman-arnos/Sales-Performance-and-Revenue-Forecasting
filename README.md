@@ -41,3 +41,16 @@ The dataset contains the following columns:
 - Gross margin percentage: The gross margin percentage
 - Gross income: The gross income
 - Rating: The customer rating of the product
+
+## Installation and Running
+1. Create the Conda Environment:
+    1. Open your terminal or Anaconda Prompt.
+    2. Navigate to the directory where your `environment.yml` is located.
+    3. Run the command: `conda env create -f environment.yml`.
+    4. This command will create a new conda environment named `sales-performance-and-revenue-forecasting` with all the specified packages installed.
+2. Activating the Environment:
+    - Activate the newly created environment by running: conda activate `sales-performance-and-revenue-forecasting`.
+3. Opening VSCode:
+    - Once the environment is activated, you can start VSCode from the same terminal session by simply typing code . if you are in the project directory. This ensures VSCode uses the correct conda environment.
+4. Running Jupyter Notebooks in VSCode:
+    - With VSCode opened, you should be able to open and run Jupyter Notebooks. VSCode will automatically detect the conda environment `sales-performance-and-revenue-forecasting` and use it for running notebooks.
